@@ -15,3 +15,4 @@ Tventana = 25e-3;               % window size (in seconds)
 Nventana = ceil(fs*Tventana);   % window size (in samples)
 
 stft(x,fs,Nventana)
+

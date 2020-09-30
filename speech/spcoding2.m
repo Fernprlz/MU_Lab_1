@@ -2,7 +2,7 @@ clear variables
 close all
 clc
 
-afile = './muestras_voz/m_oo.wav';
+afile = './speech_samples/m_oo.wav';
 
 ainfo = audioinfo(afile);
 
